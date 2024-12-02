@@ -3,7 +3,7 @@ import classes from './page.module.css';
 import { shareMeal } from '@/lib/actions';
 // import { useActionState } from 'react';
 
-import MealsFormSubmit from '@/components/meals/meals-form-submit';
+import MealsFormSubmit from '@/components/meals/mealsFormSubmit';
 
 export default function ShareMealPage() {
     // useActionState();
