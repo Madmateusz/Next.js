@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 
 export default function MealDetailsPage({params})
 {
-    const meal= getMeal(params.mealSlug);
+   FIXME const meal= getMeal(params.MealSlug);
 
     if(!meal)
     {
