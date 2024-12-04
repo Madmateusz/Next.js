@@ -5,12 +5,11 @@ import { notFound } from 'next/navigation';
 
 export default function MealDetailsPage({params})
 {
-<<<<<<< HEAD
+
     const meal= getMeal(params.mealSlug);
     // hey
-=======
-   const meal= getMeal(params.MealSlug);
->>>>>>> 6455d738af95078011ccab5fd3315f516f7d6e3b
+
+
 
     if(!meal)
     {
